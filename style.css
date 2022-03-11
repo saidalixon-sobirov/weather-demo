@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 20px;
+  background-image: url("/bg.jpg");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-family: sans-serif;
+}
+
+.wrapper {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.left-side {
+  text-align: center;
+}
+
+.city {
+  font-size: 4rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.temp {
+  font-size: 5rem;
+  font-weight: bold;
+  margin: 20px 0;
+  text-shadow: 5px 5px 10px rgba(255, 255, 255, 0.5);
+}
+
+.weather {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.right-side .search-box {
+  font-size: 25px;
+  border: none;
+  outline: none;
+  padding: 5px;
+}
